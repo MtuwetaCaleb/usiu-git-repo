@@ -45,8 +45,8 @@ def main():
 			print(f"{num1} * {num2} = {result}")
 		elif choice == '4':
 			try:
-				result.calculator.divide(num1,num2)
-				print(f"{num1} / {num2} = {result}")
+			     result.calculator.divide(num1,num2)
+			     print(f"{num1} / {num2} = {result}")
  			except ValueError as e:
 				print("Error:",e)
 if __name__ == "__main__":
